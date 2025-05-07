@@ -1,10 +1,13 @@
-import Button from "./components/button/Button";
+import AllFollowers from "./components/all-followers/AllFollowers";
 
 const App = () => {
   return (
     <>
-      <h1>Template React</h1>
-      <Button />
+    <header className="header-div">
+      <h1>Social Media Dashboard</h1>
+      <p className="totalfollowerstext">Total Followers: 23,004</p>
+    </header>
+    <AllFollowers></AllFollowers>
     </>
   );
 };

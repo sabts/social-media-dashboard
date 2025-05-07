@@ -1,0 +1,69 @@
+.card-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 326px;
+    height: 216px;
+    background-color: var(--primarycolor);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.facebook-line{
+    border-top: 5px solid var(--facebook)
+}
+.twitter-line{
+    border-top: 5px solid var(--twitter)
+}
+.instagram-line{
+    position: relative;
+    border-top: 5px solid var(--instagram);
+    overflow: hidden;
+}
+.instagram-line::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: var(--instagram)
+  }
+.youtube-line{
+    border-top: 5px solid var(--youtube)
+}
+.user-social-div, .registerRecent-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.followers-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.username{
+    color: var(--secodarycolor);
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin: 0;
+}
+.follows-numbers{
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+.followers{
+    color: var(--secodarycolor);
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.recentfollowers{
+    color: #D8D8D8;
+    font-size: 0.75rem;
+    font-weight: 700;
+}

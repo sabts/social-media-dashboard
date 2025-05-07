@@ -1,3 +1,11 @@
+:root{
+  --facebook:  #178FF5;
+  --twitter:  #1DA1F2;
+  --instagram: linear-gradient(225deg, #DF4896 0%, #EE877E 50.91%, #FDC366 100%);
+  --youtube: #C4032B;
+  --primarycolor:  #252B42;
+  --secodarycolor: #8C98C6;
+}
 *,
 *::after,
 *::before {
@@ -27,4 +35,24 @@ nav ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: #1D1F29;
+  padding: 25px;
+}
+.header-div{
+  width: 326px;
+  height: 80px;
+  border-bottom: 1px solid var(--primarycolor);
+  margin-bottom: 26px;
+}
+h1{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.totalfollowerstext{
+  color: var(--secodarycolor);
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin: 4px;
 }
