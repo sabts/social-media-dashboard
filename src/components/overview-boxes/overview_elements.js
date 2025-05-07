@@ -1,0 +1,65 @@
+export const OVERVIEW_ELEMENTS = [{
+    socialMedia:'facebook', 
+    pageInteraction:"Pages Views",
+    socialIcon:"/assets/icon-facebook.svg",
+    totalInteraction:"87",
+    stadisticIcon:"/assets/icon-up.svg", 
+    value:'3%'
+},
+{
+    socialMedia:'facebook', 
+    pageInteraction:"Likes",
+    socialIcon:"/assets/icon-facebook.svg",
+    totalInteraction:"57",
+    stadisticIcon:"/assets/icon-up.svg", 
+    value:'2%'
+}, 
+{
+    socialMedia:'instagram', 
+    pageInteraction:"Likes",
+    socialIcon:"/assets/icon-instagram.svg",
+    totalInteraction:"5462",
+    stadisticIcon:"/assets/icon-up.svg", 
+    value:'2257%%'
+}, 
+{
+    socialMedia:'instagram', 
+    pageInteraction:"Profile Views",
+    socialIcon:"/assets/icon-instagram.svg",
+    totalInteraction:"52k",
+    stadisticIcon:"/assets/icon-up.svg", 
+    value:'2257%%'
+}, 
+{
+    socialMedia:'twitter', 
+    pageInteraction:"Retweets",
+    socialIcon:"/assets/icon-twitter.svg",
+    totalInteraction:"117",
+    stadisticIcon:"/assets/icon-up.svg", 
+    value:'303%'
+}, 
+{
+    socialMedia:'twitter', 
+    pageInteraction:"Likes",
+    socialIcon:"/assets/icon-twitter.svg",
+    totalInteraction:"507",
+    stadisticIcon:"/assets/icon-up.svg", 
+    value:'553%'
+}, 
+{
+    socialMedia:'youtube', 
+    pageInteraction:"Likes",
+    socialIcon:"/assets/icon-youtube.svg",
+    totalInteraction:"107",
+    stadisticIcon:"/assets/icon-down.svg", 
+    value:'19%'
+}, 
+{
+    socialMedia:'youtube', 
+    pageInteraction:"Total Views",
+    socialIcon:"/assets/icon-youtube.svg",
+    totalInteraction:"1407",
+    stadisticIcon:"/assets/icon-down.svg", 
+    value:'12%'
+}, 
+]

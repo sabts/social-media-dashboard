@@ -1,4 +1,5 @@
 import AllFollowers from "./components/all-followers/AllFollowers";
+import OverviewBoxes from "./components/overview-boxes/OverviewBoxes";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <p className="totalfollowerstext">Total Followers: 23,004</p>
     </header>
     <AllFollowers></AllFollowers>
+   <OverviewBoxes></OverviewBoxes>
     </>
   );
 };
