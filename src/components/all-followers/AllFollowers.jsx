@@ -7,7 +7,7 @@ const AllFollowers = () => {
   return (
     <div>
       {TOTAL_FOLLOWERS.map((socialacount) => (
-       <TotalFollowers key={v4()} {...socialacount} />
+        <TotalFollowers key={v4} {...socialacount} />
       ))}
     </div>
   );

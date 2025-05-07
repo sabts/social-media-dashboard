@@ -1,5 +1,5 @@
 import AllFollowers from "./components/all-followers/AllFollowers";
-import OverviewBoxes from "./components/overview-boxes/OverviewBoxes";
+import AllOverviews from "./components/all-overviews/AllOverviews";
 
 const App = () => {
   return (
@@ -9,7 +9,8 @@ const App = () => {
       <p className="totalfollowerstext">Total Followers: 23,004</p>
     </header>
     <AllFollowers></AllFollowers>
-   <OverviewBoxes></OverviewBoxes>
+    <h2>Overview - Today</h2>
+    <AllOverviews></AllOverviews>
     </>
   );
 };

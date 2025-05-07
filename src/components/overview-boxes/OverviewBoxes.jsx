@@ -1,6 +1,7 @@
+import styles from './overview.module.css'
+
 const OverviewBoxes = ({socialMedia, pageInteraction, totalInteraction, socialIcon,stadisticIcon, value}) => {
-    return <div>
-    <h2>Overview - Today</h2>
+    return <div className={styles['overviewbox']}>
     <div>
       <div>
         <p>{pageInteraction}</p>

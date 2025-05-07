@@ -1,0 +1,7 @@
+.overviewbox{
+    display: flex;
+    width: 326px;
+    height: 125px;
+    border-radius: 5px;
+    background: #252B42;
+}
